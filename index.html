@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aashu.css">
+    <style>
+        /* Add some basic styling to the image containers */
+        .project {
+            position: relative;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        /* Style for the text overlay */
+        .project-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        /* Show the overlay on hover */
+        .project:hover .project-overlay {
+            opacity: 1;
+        }
+    </style>
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer & Designer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am outgoing, dedicated, and open-minded. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities my current job position cannot provide.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-overlay">
+                <h3>Project 1</h3>
+                <p>Create calculator.</p>
+            </div>
+            <img src="female-developer-vector.jpg" alt="Project 1">
+        </div>
+        <div class="project">
+            <div class="project-overlay">
+                <h3>Project 2</h3>
+                <p>Bike Rental Service website.</p>
+            </div>
+            <img src="/home/b122/Downloads/images (1).jpeg" alt="Project 2">
+        </div>
+        <!-- Add more project divs as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+</body>
+</html>
+
+
